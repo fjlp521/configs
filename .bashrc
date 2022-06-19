@@ -118,7 +118,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-#dhiajhuidahuihiua
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/StudyProjects/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
