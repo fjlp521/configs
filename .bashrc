@@ -94,7 +94,7 @@ alias l='ls -CF'
 alias cls='clear'
 alias cfw='/usr/local/Clash\ for\ Windows/cfw'
 alias python='python3'
-alias myip='curl http://httpbin.org/get'
+alias myip='curl -s http://httpbin.org/get'
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -121,4 +121,4 @@ fi
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/StudyProjects/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-
+export PATH=$PATH:/usr/local/node/bin
